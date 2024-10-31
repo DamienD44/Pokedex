@@ -9,6 +9,8 @@ interface PokemonCardProps {
 
 
 function PokemonCard({ pokemon }: PokemonCardProps) {
+    pokemon.name === "pikachu" && alert("pika pika!!");
+
     const { name, imgSrc } = pokemon;
 
 
